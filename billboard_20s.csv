@@ -1,16 +1,16 @@
 index,artist,country
-2,070 Shake,XX
-3,"2 Chainz""",XX
+2,070 Shake,US
+3,2 Chainz,US
 7,24kGoldn,US
-8,347aidan,XX
+8,347aidan,US
 9,4*TOWN (From Disney And Pixar's Turning Red),US
 18,5 Seconds Of Summer,AU
-19,50 Cent,XX
+19,50 Cent,US
 23,6ix9ine,US
 24,9lokknine,US
 32,A7S,SE
 33,AJR,US
-34,ATR Son Son,XX
+34,ATR Son Son,US
 35,AURORA,NO
 36,Aaron Lewis,US
 37,Acraze,US
@@ -23,7 +23,7 @@ index,artist,country
 49,Amanda Reifer,BB
 50,Amanda Shires,US
 51,Anderson .Paak,US
-52,Andrew Jannakos,XX
+52,Andrew Jannakos,US
 53,Andy Williams,US
 54,Anitta,BR
 55,AnnenMayKantereit,DE
@@ -31,7 +31,7 @@ index,artist,country
 57,Ant Saunders,US
 64,Ariana Grande,US
 65,Arizona Zervas,US
-66,Armani White,XX
+66,Armani White,US
 67,Ashanti,US
 68,Ashe,US
 73,Aventura,US
@@ -40,8 +40,8 @@ index,artist,country
 80,BLACKPINK,KR
 83,BRELAND,US
 84,BRELAND & HARDY,US
-85,BRS Kash,XX
-86,BSlime,XX
+85,BRS Kash,US
+86,BSlime,US
 87,BTS,KR
 90,Baby Tate,US
 94,Bailey Zimmerman,US
@@ -49,8 +49,8 @@ index,artist,country
 100,Becky G,US
 101,Bella Poarch,US
 102,Belly,US
-103,Ben Burgess,XX
-104,Benny The Butcher,XX
+103,Ben Burgess,US
+104,Benny The Butcher,US
 105,Benson Boone,US
 106,Beth Gibbons,GB
 107,Beyonce,US
@@ -60,7 +60,7 @@ index,artist,country
 114,Bing Crosby,US
 115,Birdman,US
 116,Bizarrap,AR
-117,Bizzy Banks,XX
+117,Bizzy Banks,US
 118,Black Eyed Peas,US
 121,Blanco Brown,US
 122,Blink-182,US
@@ -69,41 +69,41 @@ index,artist,country
 127,Bomba Estereo,CO
 128,Bon Iver,US
 129,Bootsy Collins,US
-130,Bory300,XX
+130,Bory300,US
 131,BoyWithUke,US
 132,Brad Paisley,US
 133,Brantley Gilbert,US
-136,Brenda Lee,XX
+136,Brenda Lee,US
 140,Brett Eldredge,US
 141,Brett Young,US
 142,Bring Me The Horizon,GB
 143,BrockHampton,US
-146,Bryson Gray,XX
-150,Bugsey,XX
+146,Bryson Gray,US
+150,Bugsey,US
 151,Burl Ives,US
-154,Buscabulla,XX
+154,Buscabulla,US
 155,CJ,US
 156,CKay,NG
 157,CORPSE,US
-158,Calvin Harris,XX
-161,Capella Grey,XX
+158,Calvin Harris,US
+161,Capella Grey,US
 164,Carlos Vives,CO
 165,Carly Pearce,US
 166,Carolina Gaitan,CO
 169,Chance The Rapper,US
-170,Chandler Crump,XX
+170,Chandler Crump,US
 173,Chase Rice,US
 176,Cherish,US
 177,Chief Keef,US
 180,Chloe X Halle,US
 181,Chris Brown,US
 182,Chris Janson,US
-183,Chris Lane,XX
+183,Chris Lane,US
 187,Chris Tomlin,US
 188,Chris Young,US
 189,Christian Nodal,MX
 190,Chuck Berry,US
-191,Cico P,XX
+191,Cico P,US
 195,Clairo,US
 198,Clinton Kane,AU
 199,Cochise,DE
@@ -114,16 +114,16 @@ index,artist,country
 204,Conan Gray,US
 205,Cordae,US
 206,Corey Kent,US
-207,DDG,XX
+207,DDG,US
 208,DJ Chose,US
-209,DJ Dahi,XX
+209,DJ Dahi,US
 210,DJ Drama,US
 211,DJ Khaled,US
 212,DJ Snake,FR
 213,DMX,US
 221,Daddy YankeeKarol G,GB
 222,Daisy World,US
-223,Dan + Shay,XX
+223,Dan + Shay,US
 224,DaniLeigh,US
 225,Daniel Caesar,CA
 226,DannyLux,US
@@ -135,7 +135,7 @@ index,artist,country
 236,Diddy,US
 239,Diplo,US
 240,Disclosure,GB
-243,Dominic Fike,XX
+243,Dominic Fike,US
 244,Domo Genesis,US
 248,Don Tolivert,US
 249,Donny Hathaway,US
@@ -143,7 +143,7 @@ index,artist,country
 251,Dougie B,US
 252,Dove Cameron,US
 253,Dr. Dre,US
-257,Drew Jacobs,XX
+257,Drew Jacobs,US
 258,Dua Lipa,GB
 259,Duncan Laurence,NL
 260,Dustin Lynch,US
@@ -156,24 +156,24 @@ index,artist,country
 272,Elle King,US
 273,Ellie Goulding,GB
 274,Elton John,GB
-275,Elvie Shane,XX
+275,Elvie Shane,US
 276,Elvis Presley,US
 277,Em Beihold,US
-278,Emilee,XX
+278,Emilee,US
 282,Emmy Meli,US
 288,Erica Banks,US
 289,Erroll Garner,US
 290,Eslabon Armado,US
-291,"Fana Hues""",XX
-294,Fireboy DML,XX
+291,"Fana Hues""",US
+294,Fireboy DML,US
 298,Fleet Foxes,US
 299,Fleetwood Mac,GB
 303,Frank Sinatra,US
-313,G-Eazy,XX
+313,G-Eazy,US
 314,GAYLE,US
 315,Gabby Barrett,US
 316,Garth Brooks,US
-317,Gary Lightbody Of Snow Patrol,XX
+317,Gary Lightbody Of Snow Patrol,US
 318,Gene Autry,US
 319,Gera MX,MX
 320,Ghost,SE
@@ -183,13 +183,13 @@ index,artist,country
 327,GloRilla,US
 328,Grace Jones,US
 329,Grupo Firme,MX
-330,Grupo Frontera,XX
+330,Grupo Frontera,US
 338,Gus Dapperton,US
 339,Gwen Stefani,US
 340,H.E.R.,US
 341,HAIM,US
 344,HVME,ES
-348,Harry Styles,XX
+348,Harry Styles,US
 349,Headie One,GB
 350,Henri Rene And His Orchestra,US
 351,Hillary Scott,US
@@ -199,40 +199,40 @@ index,artist,country
 355,Imagine Dragons,US
 356,Ingrid Andress,US
 359,Isaiah Rashad,US
-360,Ivan Cornejo,XX
+360,Ivan Cornejo,US
 365,J. Balvin,CO
-372,J. Colee,XX
-373,J.I The Prince Of N.Y,XX
+372,J. Colee,US
+373,J.I The Prince Of N.Y,US
 374,J.Rey Soul,GB
 375,JACKBOYS,US
 378,JID,US
-379,JIN,XX
+379,JIN,US
 380,JNR CHOI,GB
 381,JP Saxe,CA
 382,JT,US
 383,JVKE,US
-388,Jackson 5,XX
+388,Jackson 5,US
 389,Jackson Dean,US
 390,Jake Owen,US
-391,Jake Scott,XX
+391,Jake Scott,US
 392,James Fauntleroy,US
 393,Jameson Rodgers,US
 394,Jason Aldean,US
 395,Jason Derulo,US
-396,Jawsh 685,XX
+396,Jawsh 685,US
 397,Jax,GB
 398,Jaymes Young,US
 399,Jazmine Sullivan,US
-400,Jelly Roll,XX
+400,Jelly Roll,US
 401,Jennifer Hudson,US
 406,Jessica Darrow,US
-407,Jessie Murph,XX
+407,Jessie Murph,US
 412,Jimmie Allen,US
-413,Joel Corry,XX
+413,Joel Corry,US
 418,John Leguizamo,US
 419,John Rich,US
 420,Joji,US
-425,Joony,XX
+425,Joony,US
 426,Jordan Davis,US
 427,Jose Feliciano,US
 428,Jowell,PR
@@ -244,7 +244,7 @@ index,artist,country
 439,Julieta Venegas,MX
 445,Justin Moore,US
 449,KSI,GB
-461,Kate Bush,XX
+461,Kate Bush,US
 462,Katelyn Brown,US
 473,Kelly Clarkson,US
 474,Kelsea Ballerini,US
@@ -252,9 +252,9 @@ index,artist,country
 478,Kenny Mason,US
 479,Kevin Gates,US
 490,Kim Petras,US
-491,King Combs,XX
+491,King Combs,US
 492,King Von,US
-497,Ktlyn,XX
+497,Ktlyn,US
 498,Kygo,NO
 499,LOCASH,US
 500,Labrinth,GB
@@ -262,7 +262,7 @@ index,artist,country
 502,Lady Antebellum,US
 503,Lady Gaga,US
 507,Lana Del Rey,US
-508,Larray,XX
+508,Larray,US
 513,Lauren Spencer-Smith,US
 514,Layton Greene,US
 517,Leon Bridges,US
@@ -280,27 +280,27 @@ index,artist,country
 558,Logic,US
 561,Lorde,NZ
 562,Los Legendarios,PR
-563,Loza Alexander,XX
+563,Loza Alexander,US
 564,Lucky Daye,US
 569,Lyanno,PR
-570,M.I.A.,XX
+570,M.I.A.,US
 571,MNEK,GB
 572,MO3,US
 573,Mac Miller,US
 574,MacKenzie Porter,CA
-575,Machine Gun Kelly,XX
+575,Machine Gun Kelly,US
 576,Maddie & Tae,US
 577,MadeinTYO,US
-578,Mae Muller,XX
+578,Mae Muller,US
 579,Maldy,PR
 582,Maneskin,IT
 583,Manuel Turizo,CO
 587,Mariah Carey,US
 588,Mark Morrison,GB
-589,Maroon 5,XX
+589,Maroon 5,US
 592,Mary J. Blige,US
 593,Masked Wolf,AU
-594,Matt Stell,XX
+594,Matt Stell,US
 595,Mauro Castillo,CO
 598,Megan Moroney,US
 599,Megan Thee Stallion,US
@@ -315,14 +315,14 @@ index,artist,country
 612,Mitchell Ayres And His Orchestra,US
 615,Moliy,US
 616,Money Man,US
-621,Mooski,XX
-622,Mora,XX
-627,Morray,XX
-628,"Morray""",XX
-629,Mozzy,XX
+621,Mooski,US
+622,Mora,US
+627,Morray,US
+628,"Morray""",US
+629,Mozzy,US
 630,Mulatto,PH
 631,Muni Long,US
-632,Mustafa,XX
+632,Mustafa,US
 639,NAV,CA
 640,NAV ,CA
 641,NEIKED,SE
@@ -339,14 +339,14 @@ index,artist,country
 668,Nirvana,US
 669,Noah Cyrus,US
 670,Normani,US
-671,OG Bobby Billions,XX
+671,OG Bobby Billions,US
 674,Ol' Dirty Bastard,US
 675,Old Dominion,US
 678,Oliver Tree,US
 679,Olivia Rodrigo,US
 680,Omar Apollo,US
 681,Omarion,US
-687,Ozzy Osbourne,XX
+687,Ozzy Osbourne,US
 690,PARTYNEXTDOOR,CA
 691,PSY,KR
 692,Parker McCollum,US
@@ -354,29 +354,29 @@ index,artist,country
 694,Paul McCartney,GB
 695,Pentatonix,US
 696,Perry Como,US
-700,Phoebe & Maggie,XX
+700,Phoebe & Maggie,US
 703,Playboi Carti,US
 704,PnB Rock,US
-716,Popp Hunna,XX
+716,Popp Hunna,US
 722,Powfu,CA
 723,Priscilla Block,US
 724,Project Pat,US
 729,Queen Naija,US
-730,Quevedo,XX
+730,Quevedo,US
 731,RAYE,GB
 732,RM,KR
 733,ROSE,US
 734,Randy,US
 735,Rascal Flatts,US
 740,Ray Parker Jr.,US
-741,RealestK,XX
+741,RealestK,US
 742,Reba McEntire,US
 743,Red Hot Chili Peppers,US
-744,Regard,XX
+744,Regard,US
 745,Rema,GB
 746,Rhenzy Feliz,US
 749,Rihanna,US
-752,Ritt Momney,XX
+752,Ritt Momney,US
 753,Robin Schulz,DE
 754,Rockwell,US
 764,Romeo Santos,US
@@ -391,28 +391,28 @@ index,artist,country
 780,Sabrina Carpenter,US
 781,Sada Baby,US
 782,Sam Dew,US
-785,Sam Tompkins,XX
+785,Sam Tompkins,US
 786,Sampha,GB
 787,Saweetie,US
 788,Scotty McCreery,US
 789,Sebastian Yatra,CO
 801,Shawn Mendes,CA
 802,Sheck Wes,US
-803,Sherhonda Gaulden,XX
+803,Sherhonda Gaulden,US
 804,Sia,AU
 805,Silk Sonic (Bruno Mars & Anderson .Paak),US
 806,Skepta,GB
 807,Ski Mask The Slump God,US
 808,Skillibeng,JM
-813,SleazyWorld Go,XX
+813,SleazyWorld Go,US
 814,Sleepy Hallow,US
 815,Smiley,US
-818,SoFaygo,XX
-819,Sosa Geek,XX
+818,SoFaygo,US
+819,Sosa Geek,US
 820,Southside,US
 821,SpotemGottem,US
-822,State Of Mine,XX
-823,StaySolidRocky,XX
+822,State Of Mine,US
+823,StaySolidRocky,US
 828,Stephen Sanchez,US
 829,Steve Lacy,US
 832,Stunna Gambino,US
@@ -427,9 +427,9 @@ index,artist,country
 845,TWICE,KR
 846,Tai Verdes,US
 849,"Tainy""",PR
-852,Tanna Leone,XX
+852,Tanna Leone,US
 855,Taylor Swift,US
-856,Taylour Paige,XX
+856,Taylour Paige,US
 857,Teezo Touchdown,US
 863,Tenille Arts,CA
 864,The Andrews Sisters,US
@@ -437,13 +437,13 @@ index,artist,country
 866,The Chainsmokers,US
 867,The Fontane Sisters,US
 868,The Game,US
-869,The Harlem Community Choir,XX
-872,The Marias,XX
+869,The Harlem Community Choir,US
+872,The Marias,US
 873,The National,US
 874,"The Neptunes""",US
 875,The Plastic Ono Band,GB
 876,The Ronettes,US
-877,The Walters,XX
+877,The Walters,US
 883,The-Dream,GB
 887,Thomas Wesley,US
 888,Thundercat,US
@@ -462,9 +462,9 @@ index,artist,country
 906,Trey Lewis,US
 909,Troye Sivan,AU
 918,Tyla Yaweh,US
-919,Tyler Cole,XX
-924,Tyson James,XX
-927,V,XX
+919,Tyler Cole,US
+924,Tyson James,US
+927,V,US
 928,VEDO,US
 929,Veeze,US
 930,Vince Guaraldi Trio,US
@@ -472,7 +472,7 @@ index,artist,country
 934,Walker Hayes,US
 935,Wham!,GB
 936,White Gold,US
-937,WhoHeem,XX
+937,WhoHeem,US
 938,Why Don't We,US
 939,Willow,US
 940,Wisin,PR
@@ -482,8 +482,8 @@ index,artist,country
 947,YFN Lucci,US
 950,YNW Melly,US
 951,YTB Trench,US
-952,Yahritza y Su Esencia,XX
-953,Yak Gotti,XX
+952,Yahritza y Su Esencia,US
+953,Yak Gotti,US
 954,Yaviah,PR
 955,Ye,US
 956,Yeat,US
@@ -494,15 +494,16 @@ index,artist,country
 964,Young T,US
 975,Yung Gravy,US
 976,Yung Kayo,US
-977,Yung Miami,XX
+977,Yung Miami,US
 978,Zac Brown Band,US
 979,Zach Bryan,US
-980,Zayn,XX
+980,Zayn,US
 981,Zendaya,US
-982,beabadoobee,XX
+982,beabadoobee,US
 990,d4vd,US
 991,dazy,US
 992,iann dior,US
 993,j-hope,KR
 994,jetsonmade,US
 995,twenty one pilots,US
+,,US
