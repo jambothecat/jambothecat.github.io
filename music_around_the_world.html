@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Around the World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      background: linear-gradient(135deg, #eef2f3, #d9e2ec);
+      color: #333;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 2rem;
+      position: relative;
+    }
+
+    h1, h2, h3, p {
+      margin: 20px 0;
+    }
+
+    h1 {
+      font-size: 7rem;
+      font-weight: 700;
+      position: relative;
+    }
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    p {
+      max-width: 1000px;
+      font-size: 1.3rem;
+      line-height: 2;
+    }
+
+    .globe-container {
+      margin-top: 30px;
+    }
+
+    #globeViz {
+      width: 700px;
+      height: 700px;
+    }
+
+    .floating-notes {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .note {
+      position: absolute;
+      font-size: 40px;
+      color: #00aaff;
+      animation: float 10s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
+    }
+
+    .genres {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .genre-card {
+      position: relative;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background 0.3s;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .genre-card:hover {
+      transform: translateY(-5px);
+      background: #cdeefd;
+    }
+
+    .popup {
+      display: none;
+      position: absolute;
+      background: #ffffff;
+      color: #333;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      z-index: 10;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    .member {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 220px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .member i {
+      font-size: 50px;
+      margin-bottom: 10px;
+      color: #00aaff;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three-globe@2.27.0/dist/three-globe.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Slide 1: Title -->
+<section id="slide1">
+  <h1>Music Around the World</h1>
+  <div class="globe-container">
+    <div id="globeViz"></div>
+  </div>
+  <div class="floating-notes">
+    <div class="note" style="left:10%; animation-delay:0s;">🎵</div>
+    <div class="note" style="left:30%; animation-delay:2s;">🎶</div>
+    <div class="note" style="left:50%; animation-delay:4s;">🎼</div>
+    <div class="note" style="left:70%; animation-delay:6s;">🎵</div>
+    <div class="note" style="left:90%; animation-delay:8s;">🎶</div>
+  </div>
+</section>
+
+<!-- Slide 2: Genre Cards -->
+<section id="slide2">
+  <h2>Genres Across the Globe</h2>
+  <div class="genres">
+    <!-- Genre cards with popups -->
+  </div>
+  <div id="popup" class="popup"></div>
+</section>
+
+<!-- Slide 3: Placeholder -->
+<section id="slide3">
+  <h2>More Visualizations Coming Soon</h2>
+</section>
+
+<!-- Slide 4: Placeholder -->
+<section id="slide3">
+    <h2>More Visualizations Coming Soon</h2>
+  </section>
+
+<!-- Slide 5: Why this Matters -->
+<section id="slide5">
+  <h2>Why Understanding Music Evolution Matters</h2>
+  <p>Music captures the heartbeat of each generation. From jazz in the 1950s to Afrobeats today, music mirrors social struggles, innovation, identity, and creativity. Understanding its timeline lets music lovers appreciate how rhythms connected cultures, communities, and individuals across decades worldwide, shaping who we are today.</p>
+</section>
+
+<!-- Slide 6: Meet the Team -->
+<section id="slide6">
+  <h2>Meet the Team</h2>
+  <div class="team">
+    <div class="member"><i class="fas fa-user-circle"></i><h3>Shelin Varughese</h3></div>
+    <div class="member"><i class="fas fa-user-circle"></i><h3>Sabrina Matias</h3></div>
+    <div class="member"><i class="fas fa-user-circle"></i><h3>Mathew Purnell</h3></div>
+  </div>
+</section>
+
+<script>
+const Globe = new ThreeGlobe()
+  .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg'); // Updated globe image URL
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+const globeContainer = document.getElementById('globeViz');
+
+renderer.setSize(globeContainer.offsetWidth, globeContainer.offsetHeight);
+globeContainer.appendChild(renderer.domElement);
+scene.add(Globe);
+
+camera.aspect = globeContainer.offsetWidth / globeContainer.offsetHeight;
+camera.updateProjectionMatrix();
+camera.position.z = 500;
+
+scene.add(new THREE.AmbientLight(0xffffff));
+const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+directionalLight.position.set(5, 3, 5);
+scene.add(directionalLight);
+
+(function animate() {
+  requestAnimationFrame(animate);
+  Globe.rotation.y += 0.0015;
+  renderer.render(scene, camera);
+})();
+
+// Genre cards and popup
+const genres = [
+  { name: 'Jazz', info: 'Origin: USA. Emerged early 20th century, rooted in African American culture.' },
+  { name: 'Rock', info: 'Origin: USA. Bold genre of the 1950s combining blues and rebellion.' },
+  { name: 'Hip Hop', info: 'Origin: USA. 1970s Bronx roots, storytelling through rap, DJing, graffiti.' },
+  { name: 'Classical', info: 'Origin: Europe. Shaped musical structure and expression since Baroque era.' },
+  { name: 'Reggae', info: 'Origin: Jamaica. 1960s fusion promoting peace and unity.' },
+  { name: 'K-pop', info: 'Origin: South Korea. 90s wave mixing Western genres with Korean culture.' },
+  { name: 'Salsa', info: 'Origin: Caribbean. Dance music explosion from NYC clubs.' },
+  { name: 'Country', info: 'Origin: USA. Storytelling traditions with a southern twang.' },
+  { name: 'EDM', info: 'Origin: Global. Rise of house, techno, and trance defining dance music.' },
+  { name: 'Blues', info: 'Origin: USA. Emotional rhythms from African American folk music.' },
+  { name: 'Afrobeats', info: 'Origin: Nigeria. Global dance music blending Afro-pop, hip hop.' },
+  { name: 'Opera', info: 'Origin: Italy. 16th-century art fusing music, drama, and performance.' },
+  { name: 'Flamenco', info: 'Origin: Spain. Passionate art mixing dance and powerful vocals.' },
+  { name: 'Metal', info: 'Origin: UK/USA. 1970s intense, distorted rock with darker themes.' },
+  { name: 'Folk', info: 'Origin: Worldwide. Oral histories preserved through simple melodies.' },
+  { name: 'Soul', info: 'Origin: USA. Fusion of gospel, R&B, and blues capturing activism.' }
+];
+
+const genresContainer = document.querySelector('.genres');
+const popup = document.getElementById('popup');
+
+genres.forEach(genre => {
+  const card = document.createElement('div');
+  card.className = 'genre-card';
+  card.textContent = genre.name;
+  card.addEventListener('mouseenter', () => {
+    popup.style.display = 'block';
+    popup.innerHTML = `<strong>${genre.name}</strong><br>${genre.info}`;
+  });
+  card.addEventListener('mouseleave', () => {
+    popup.style.display = 'none';
+  });
+  genresContainer.appendChild(card);
+});
+</script>
+
+</body>
+</html>
