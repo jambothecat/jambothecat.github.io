@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import D3 Version 6 here or at the end of the body -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- create an SVG canvas for us to modify -->
+    <div>
+        <p id="textbox">NOTE: Out of all of the individual artists, 642 artists were unable to be identified.</p>
+        <svg id="canvas" width="500" height="500"></svg>
+    </div>
+        
+    <!-- load our custom D3 code (must happen after D3 is loaded) -->
+    <script src="./barchart.js"></script>
+  </body>
+</html>

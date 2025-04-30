@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Around the World</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
   <style>
     body {
       margin: 0;
@@ -177,9 +178,13 @@
 </section>
 
 <!-- Slide 4: Placeholder -->
-<section id="slide3">
-    <h2>More Visualizations Coming Soon</h2>
-  </section>
+ <section id="slide4">
+  <div>
+    <p id="textbox">Click on each individual bar to find out how many artists are from each country from 1958 to 2022.</p>
+    <h4>It is important to note 642 artists were unable to be found within the database that was used.</h4>
+    <svg id="canvas" width="500" height="500"></svg>
+  </div>
+  </section>s
 
 <!-- Slide 5: Why this Matters -->
 <section id="slide5">
@@ -262,6 +267,7 @@ genres.forEach(genre => {
   genresContainer.appendChild(card);
 });
 </script>
+<script src="./barchart.js"></script>
 
 </body>
 </html>
