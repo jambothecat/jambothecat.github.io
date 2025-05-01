@@ -8,6 +8,7 @@
     <script src="./jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
   </head>
 
   <body>
@@ -15,9 +16,12 @@
     <div>
         <p id="textbox">NOTE: Out of all of the individual artists, 642 artists were unable to be identified.</p>
         <svg id="canvas" width="500" height="500"></svg>
+        <svg id="canvas2" width="500" height="500"></svg>
+        <svg id="legend" width="500" height="500"></svg>
     </div>
         
     <!-- load our custom D3 code (must happen after D3 is loaded) -->
     <script src="./barchart.js"></script>
+    <script src="./bubblemap.js"></script>
   </body>
 </html>
